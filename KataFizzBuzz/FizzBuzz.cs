@@ -1,10 +1,10 @@
 ﻿namespace KataFizzBuzz
 {
-    public class FizzBuzz
+    public static class FizzBuzz
     {
-        public string Convert(int number)
+        public static string Convert(int number)
         {
             throw new NotImplementedException();
         }
     }
-}
+}   
