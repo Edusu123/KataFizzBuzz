@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataFizzBuzz", "KataFizzBuzz\KataFizzBuzz.csproj", "{9697C3A6-5F50-462D-BACC-E972DFCDB597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KataFizzBuzz", "KataFizzBuzz\KataFizzBuzz.csproj", "{9697C3A6-5F50-462D-BACC-E972DFCDB597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataFizzBuzzTest", "KataFizzBuzzTest\KataFizzBuzzTest.csproj", "{5624E749-CAC9-4EE4-9D1F-5C687D1A265E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KataFizzBuzzTest", "KataFizzBuzzTest\KataFizzBuzzTest.csproj", "{5624E749-CAC9-4EE4-9D1F-5C687D1A265E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9697C3A6-5F50-462D-BACC-E972DFCDB597} = {9697C3A6-5F50-462D-BACC-E972DFCDB597}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
