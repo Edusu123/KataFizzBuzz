@@ -8,7 +8,7 @@ namespace KataFizzBuzzTest
         [TestMethod]
         public void Convert_1_to_1()
         {
-            Assert.Equals("1", FizzBuzz.Convert(1));
+            Assert.AreEqual("1", FizzBuzz.Convert(1));
         }
     }
 }
